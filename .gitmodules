@@ -1,0 +1,3 @@
+[submodule "Bird/Assets/Engine"]
+	path = Bird/Assets/Engine
+	url = https://github.com/CodeGamified/.engine.git
