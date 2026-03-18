@@ -265,6 +265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 904734855}
+  - component: {fileID: 904734856}
   m_Layer: 0
   m_Name: ENGINE
   m_TagString: Untagged
@@ -287,6 +288,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &904734856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904734854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 383cdfb737b6d5d4bb7e63fa663eeea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugLogging: 1
+  gravity: -25
+  flapStrength: 8
+  maxFallSpeed: -15
+  pipeSpawnInterval: 1.5
+  pipeScrollSpeed: 4
+  gapSize: 3
+  pipeWidth: 1
+  worldHeight: 10
+  birdRadius: 0.3
+  autoRestart: 1
+  restartDelay: 2
+  enableTimeScale: 1
+  enableScripting: 1
+  configureCamera: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
